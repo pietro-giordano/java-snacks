@@ -15,7 +15,7 @@ public class Snack3 {
         System.out.println("L'array di numeri generato casualmente è: " + Arrays.toString(numbers));
 
         int sum = 0;
-        for (int i = 0; i < numbers.length; i+=2) {
+        for (int i = 1; i < numbers.length; i += 2) {
             sum += numbers[i];
         }
         System.out.println("La somma degli elementi in posizione dispari è: " + sum);
