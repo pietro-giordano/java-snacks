@@ -22,5 +22,7 @@ public class Snack8 {
 
         int sum = (number / 1000 % 10) + (number / 100 % 10) + (number / 10 % 10) + (number % 10);
         System.out.println("La somma delle cifre che lo compongono è: " + sum);
+
+        scanner.close();
     }
 }
